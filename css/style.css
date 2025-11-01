@@ -1,0 +1,32 @@
+body {
+    background-color: #557252;
+}
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 40px;
+    
+}
+.all_months {
+    width: 200px;
+    height: 200px;
+    background-color: #d5edd2;
+    padding: 10px 0 0 20px;
+    border-radius: 5px;
+}
+.all_months h1 {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.all_months p {
+    font-size: 14px;
+    color: #4f624d;
+}
+
+.all_months:hover {
+    transform: scale(1.1);
+}
